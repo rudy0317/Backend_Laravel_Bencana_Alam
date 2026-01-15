@@ -1,0 +1,11 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Bencana extends Model
+{
+    protected $table = 'bencanas';
+    protected $guarded = ['id'];
+}
